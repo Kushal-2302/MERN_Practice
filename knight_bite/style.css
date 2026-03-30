@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.12);
+    color: white;
+    padding: 2vh 0;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+    .logo {
+        margin-left: 50px;
+
+        img {
+            width: 130px;
+            margin: 10px;
+        }
+    }
+
+    .links {
+        margin-right: 50px;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+
+            li {
+                margin: 20px 25px;
+                padding: 10px;
+
+                a {
+                    color: white;
+                    font-weight: bold;
+                    font-size: larger;
+                    text-decoration: none;
+                    transition: all .3s;
+                }
+
+                a:hover {
+                    color: rgb(143, 52, 227);
+                }
+            }
+        }
+    }
+
+    /* .icon {
+        img{
+            display: none;
+        }
+    } */
+}
+header .icon img {
+  display: none;
+}
+
+
+
+
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: url("./images/knight-bite-bgi.svg") no-repeat center/cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .kb-name {
+        h1 {
+            font-size: 80px;
+            color: white;
+        }
+    }
+
+    .app-link {
+        display: flex;
+        justify-content: center;
+
+        .img1 {
+            margin: 30px 20px;
+            height: 65px;
+        }
+
+        .img2 {
+            margin: 25px 20px;
+            height: 75px;
+        }
+    }
+
+
+}
+
+
+@media screen and (max-width:700px) {
+    header {
+        position: fixed;
+        top: 0;
+
+        .links {
+            ul {
+                display: none;
+            }
+        }
+
+
+        /* .icon {
+            img {
+                border-radius: 5px;
+                width: 30px;
+                height: 30px;
+                background: white;
+                position: fixed;
+                top: 33px;
+                right: 25px;
+                font-size: 50px;
+                cursor: pointer;
+            }
+
+        }
+
+        .icon > img:active {
+            transform: scale(.9);
+        } */
+    }
+     header .icon img {
+    display: block;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    background: white;
+    position: fixed;
+    top: 33px;
+    right: 25px;
+    cursor: pointer;
+  }
+
+   header .icon img:active {
+    transform: scale(.9);
+  }
+  /* .links ul {
+    display: none;
+  } */
+  
+}
