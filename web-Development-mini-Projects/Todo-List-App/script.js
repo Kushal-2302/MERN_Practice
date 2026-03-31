@@ -14,7 +14,7 @@ function addTask() {
   const taskSpan = document.createElement("span");
   taskSpan.textContent = taskText;
 
-  // ✅ Check button
+  //  Check button
   const checkBtn = document.createElement("button");
   checkBtn.textContent = "✔";
   checkBtn.style.background = "#0f9b8e";
@@ -23,7 +23,7 @@ function addTask() {
     taskSpan.classList.toggle("completed");
   });
 
-  // ✏️ Edit button (inline editing)
+  //  Edit button (inline editing)
   const editBtn = document.createElement("button");
   editBtn.textContent = "Edit";
   editBtn.style.background = "#ff6f00";
@@ -51,7 +51,7 @@ function addTask() {
     };
   });
 
-  // ❌ Delete button
+  //  Delete button
   const deleteBtn = document.createElement("button");
   deleteBtn.textContent = "X";
   deleteBtn.style.background = "#6a0dad";
