@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Expense Tracker</h1>
+    <div class="input-section">
+      <input id="descInput" type="text" placeholder="Description">
+      <input id="amountInput" type="number" placeholder="Amount">
+      <select id="typeInput">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+      </select>
+      <button id="addBtn">Add</button>
+    </div>
+    <div class="summary">
+      <p>Total Balance: <span id="balance">0</span></p>
+      <p>Total Income: <span id="income">0</span></p>
+      <p>Total Expense: <span id="expense">0</span></p>
+    </div>
+    <ul id="list"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #222;
+  padding: 20px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 15px #0ff;
+}
+
+h1 {
+  text-align: center;
+  color: #ff00ff;
+}
+
+.input-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+button {
+  background: #00ff99;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: #111;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00cc77;
+}
+
+.summary {
+  background: #333;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #444;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.income {
+  border-left: 5px solid #00ff99;
+}
+
+li.expense {
+  border-left: 5px solid #ff0066;
+}
+
+
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .input-section {
+    flex-direction: column;   /* stack inputs vertically */
+    gap: 8px;
+  }
+
+  input, select, button {
+    width: 100%;              /* full width on mobile */
+    font-size: 16px;
+  }
+
+  .summary {
+    text-align: center;       /* center summary text */
+  }
+
+  li {
+    flex-direction: column;   /* stack description and delete button */
+    align-items: flex-start;
+  }
+
+  li button {
+    margin-top: 8px;
+    width: 100%;              /* delete button full width */
+  }
+}
