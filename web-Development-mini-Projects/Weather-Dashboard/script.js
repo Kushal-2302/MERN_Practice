@@ -111,3 +111,7 @@ toggleUnitBtn.addEventListener("click", () => {
       });
   }
 });
+
+
+//? example url for API
+// console.log(`https://api.openweathermap.org/data/2.5/weather?q=London&appid=bc81fec1f0763f9a21f608d0b1e16c83&units=metric`)
