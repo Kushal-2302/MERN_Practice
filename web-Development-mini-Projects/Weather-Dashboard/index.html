@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather Dashboard</h1>
+    <div class="search-section">
+      <input id="cityInput" type="text" placeholder="Enter city name...">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div class="weather-info">
+      <h2 id="cityName"></h2>
+      <p id="temperature"></p>
+      <p id="condition"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+      <p id="sunrise"></p>
+      <p id="sunset"></p>
+    </div>
+
+    <div class="forecast">
+      <h3>5-Day Forecast</h3>
+      <div id="forecastContainer"></div>
+    </div>
+
+    <div class="extra-feature">
+      <h3>🌍 Your Location Weather</h3>
+      <p id="localWeather"></p>
+    </div>
+
+    <div class="unit-toggle">
+      <button id="toggleUnit">Switch °C / °F</button>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
