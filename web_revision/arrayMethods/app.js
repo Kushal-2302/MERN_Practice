@@ -78,3 +78,25 @@ let result = student
 .filter((elem) => elem.degree === 'BE')
 .map((elem) => `${elem.fname} age is ${elem.age}`)
 console.log(result);
+
+
+//? working on employee details
+let employee = [
+    {name : "kushal" , empID : 1001 , designation : "Developer", salary : 30000 , phno : 9876543214},
+    {name : "kumar" , empID : 1002 , designation : "Designer", salary : 18000 , phno : 9988774455},
+    {name : "ravi" , empID : 1003 , designation : "Tester", salary : 20000 , phno : 7788995566},
+    {name : "ram" , empID : 1004 , designation : "TeamLead", salary : 35000 , phno : 6655889944},
+    {name : "abhi" , empID : 1005 , designation : "Intern", salary : 15000 , phno : 7788556699}
+]
+let empResult1 = employee.filter((elem) => elem.salary < 20000);
+console.log(empResult1);
+
+let empResult2 = empResult1.map((elem) => {
+    let {name , designation} = elem;
+    console.log(`${name} is working as ${designation}`)
+})
+
+let empResult3 = empResult1.reduce((sum, curr) => {
+    return sum + curr.salary;
+},0)
+console.log(`Total Salary of all employees is ${empResult3}`)
