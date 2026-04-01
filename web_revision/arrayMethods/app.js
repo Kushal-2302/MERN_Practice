@@ -18,4 +18,30 @@ let numebrs = (...arr) => {
     let sum = evenArr.reduce((prev,curr) => prev + curr)
     console.log(sum)
 }
-numebrs(9,6,4,7,1,3,2,5,8);
+// numebrs(9,6,4,7,1,3,2,5,8);
+
+
+let arr = [38,23,98,12,75,32,91,48];
+let even = arr.filter((elem) => elem % 2 == 0)
+// console.log(even);
+
+
+//? objects
+let arithmetic = {
+    add : function(a=0,b=0){
+        let sum = a+b;
+        return `${a} + ${b} = ${sum}`
+    },
+    multiple : function(a,b){
+        return `${a} + ${b} = ${a*b}`
+    }
+}
+let a1 = arithmetic.add(100,200)
+console.log(a1);
+
+let m1 = arithmetic.multiple(20,30);
+console.log(m1);
+
+let {add, multiple} = arithmetic;
+console.log(add(10,20));
+console.log(multiple(4,5));
