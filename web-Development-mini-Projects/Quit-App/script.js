@@ -69,9 +69,9 @@ function selectAnswer(option, currentQuestion) {
   clearInterval(timer);
   if (option === currentQuestion.answer) {
     score++;
-    explanationEl.textContent = "✅ Correct! " + currentQuestion.explanation;
+    explanationEl.textContent = " Correct! " + currentQuestion.explanation;
   } else {
-    explanationEl.textContent = "❌ Wrong! " + currentQuestion.explanation;
+    explanationEl.textContent = " Wrong! " + currentQuestion.explanation;
   }
   nextBtn.style.display = "block";
 }
