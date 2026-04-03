@@ -1,0 +1,87 @@
+// List of programs to practice
+
+//---------functions
+
+// Write a function to check if a number is prime
+// Write a function to calculate factorial (iterative & recursive)
+// Write a function for Fibonacci (nth + series)
+// Write a function to find GCD of two numbers
+// Write a function to implement debounce
+// Write a function to implement throttle
+// Write a function to deep clone an object
+// Write a function to curry a function
+// Write a function to memoize results
+// Write a function to flatten nested arrays
+
+
+
+//--------Arrays
+
+// Remove duplicates from array
+// Find largest and smallest number
+// Find second largest number
+// Find missing number in array
+// Find duplicate elements
+// Rotate array (left/right)
+// Find intersection of two arrays
+// Find union of two arrays
+// Sort array without built-in sort
+// Find frequency of elements
+// Move all zeros to end
+// Chunk array into smaller arrays
+// Flatten nested array
+// Find pair with given sum
+// Find longest consecutive sequence
+
+
+
+/------------/Strings
+
+// Reverse a string
+// Check palindrome
+// Count vowels and consonants
+// Find first non-repeating character
+// Find longest word in sentence
+// Capitalize first letter of each word
+// Check anagram
+// Count occurrences of each character
+// Remove duplicate characters
+// Reverse words in sentence
+// Check substring exists
+// Find all permutations of string
+// Compress string (e.g., aab → a2b1)
+// Check if string contains only digits
+// Find longest substring without repeating characters
+
+
+
+//-----------Objects
+
+// Check if object is empty
+// Count properties in object
+// Merge two objects
+// Deep clone object
+// Compare two objects
+// Convert object to array (Object.entries)
+// Convert array to object
+// Find key with highest value
+// Group objects by property
+// Remove specific key from object
+// Iterate over object (keys, values, entries)
+// Freeze and seal object
+// Nested object access (safe access)
+// Sort object by values
+// Convert object to query string
+
+
+
+//---------Must-Do (High Priority for Interviews)
+
+// Remove duplicates
+// Palindrome
+// Anagram
+// Missing number
+// First non-repeating character
+// Array sum / pair sum
+// Object frequency counter
+// Debounce / Throttle

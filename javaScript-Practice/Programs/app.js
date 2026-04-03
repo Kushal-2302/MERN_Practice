@@ -30,6 +30,8 @@ let total = (arr) => {
 console.log(total([7,4,3,2,5]));
 
 
+
+//? finding second largest number
 let secondLargeNum = (arr) => {
   let sort = arr.sort((a, b) =>  b - a);
   return sort[1];
