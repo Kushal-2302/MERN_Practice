@@ -1,9 +1,9 @@
 // List of programs to practice
 
-//---------functions
+# //---------functions
 
-// Write a function to check if a number is prime
-// Write a function to calculate factorial (iterative & recursive)
+// Write a function to check if a number is prime                  -- done
+// Write a function to calculate factorial (iterative & recursive) -- done
 // Write a function for Fibonacci (nth + series)
 // Write a function to find GCD of two numbers
 // Write a function to implement debounce
@@ -15,10 +15,10 @@
 
 
 
-//--------Arrays
+# //--------Arrays
 
-// Remove duplicates from array
-// Find largest and smallest number
+// Remove duplicates from array              -- done
+// Find largest and smallest number          -- done      
 // Find second largest number
 // Find missing number in array
 // Find duplicate elements
@@ -35,10 +35,10 @@
 
 
 
-/------------/Strings
+# /------------/Strings
 
-// Reverse a string
-// Check palindrome
+// Reverse a string                         -- done
+// Check palindrome                         -- done
 // Count vowels and consonants
 // Find first non-repeating character
 // Find longest word in sentence
@@ -55,10 +55,10 @@
 
 
 
-//-----------Objects
+# //-----------Objects
 
-// Check if object is empty
-// Count properties in object
+// Check if object is empty                       -- done
+// Count properties in object                     -- done
 // Merge two objects
 // Deep clone object
 // Compare two objects
@@ -75,9 +75,9 @@
 
 
 
-//---------Must-Do (High Priority for Interviews)
+# //---------Must-Do (High Priority for Interviews)
 
-// Remove duplicates
+// Remove duplicates 
 // Palindrome
 // Anagram
 // Missing number
