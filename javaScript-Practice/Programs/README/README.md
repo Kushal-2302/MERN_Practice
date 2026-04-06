@@ -4,7 +4,7 @@
 
 // Write a function to check if a number is prime                  -- done
 // Write a function to calculate factorial (iterative & recursive) -- done
-// Write a function for Fibonacci (nth + series)
+// Write a function for Fibonacci (nth + series)                   -- done
 // Write a function to find GCD of two numbers
 // Write a function to implement debounce
 // Write a function to implement throttle
@@ -19,7 +19,7 @@
 
 // Remove duplicates from array              -- done
 // Find largest and smallest number          -- done      
-// Find second largest number
+// Find second largest number                -- done
 // Find missing number in array
 // Find duplicate elements
 // Rotate array (left/right)
@@ -39,7 +39,7 @@
 
 // Reverse a string                         -- done
 // Check palindrome                         -- done
-// Count vowels and consonants
+// Count vowels and consonants              -- done
 // Find first non-repeating character
 // Find longest word in sentence
 // Capitalize first letter of each word
