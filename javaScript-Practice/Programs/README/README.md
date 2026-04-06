@@ -59,7 +59,7 @@
 
 // Check if object is empty                       -- done
 // Count properties in object                     -- done
-// Merge two objects
+// Merge two objects                              -- done
 // Deep clone object
 // Compare two objects
 // Convert object to array (Object.entries)
