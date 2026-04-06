@@ -1,6 +1,6 @@
 //? Count properties in object
 
-//! Using Object.keys()
+///! Using Object.keys()
 const countProperties = (obj) => Object.keys(obj).length;
 const person = {
     name : "kushal",
