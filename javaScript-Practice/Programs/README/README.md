@@ -41,7 +41,7 @@
 // Check palindrome                         -- done
 // Count vowels and consonants              -- done
 // Find first non-repeating character
-// Find longest word in sentence
+// Find longest word in sentence            -- done
 // Capitalize first letter of each word
 // Check anagram
 // Count occurrences of each character
@@ -60,7 +60,7 @@
 // Check if object is empty                       -- done
 // Count properties in object                     -- done
 // Merge two objects                              -- done
-// Deep clone object
+// Deep clone object                              -- done
 // Compare two objects
 // Convert object to array (Object.entries)
 // Convert array to object
